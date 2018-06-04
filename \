@@ -1,0 +1,15 @@
+Refactor
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Mon Jun 4 21:35:27 2018 +0200
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   ../.idea/workspace.xml
+#	modified:   cmd/adventureweb/main.go
+#	modified:   story.go
+#

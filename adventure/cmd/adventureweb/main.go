@@ -4,7 +4,6 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"encoding/json"
 	"github.com/romanornr/gophercises/adventure"
 )
 
@@ -18,10 +17,10 @@ func main(){
 		panic(err)
 	}
 
-	d := json.NewDecoder(f)
-	var story adventure.Story
-	if err := d.Decode(&story); err != nil{
+	story , err := adventure.JsonStory(f)
+	if err != nil{
 		panic(err)
 	}
+
 	fmt.Printf("%v\n", story)
 }
