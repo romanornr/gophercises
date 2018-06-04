@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"encoding/json"
-	"github.com/romanornr/adventure"
+	"github.com/romanornr/gophercises/adventure"
 )
 
 func main(){
